@@ -13,16 +13,13 @@ public abstract class SanPham {
 
     // Constructor
     public SanPham(){};
-    public SanPham(String MaSP,String TenSP, String Hang, 
-            //float GiaBan
-            int SoLuong, int TinhTrang, float GiaGoc,  byte[] Anh) {    
+    public SanPham(String MaSP,String TenSP, String Hang, int SoLuong, int TinhTrang, float GiaGoc,  byte[] Anh) {    
         this.MaSP = MaSP;
         this.TenSP = TenSP;
         this.Hang = Hang;
         this.SoLuong = SoLuong;
         this.TinhTrang = TinhTrang;
         this.GiaGoc = GiaGoc;
-//        this.GiaBan = GiaBan;
         this.Anh = Anh;
     }
     // Set - Get
