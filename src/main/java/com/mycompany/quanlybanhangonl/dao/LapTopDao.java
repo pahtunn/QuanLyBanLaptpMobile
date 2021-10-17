@@ -36,7 +36,7 @@ public class LapTopDao {
           pstmt.setInt(5, lt.getSoLuong());
           pstmt.setFloat(6, lt.getGiaGoc());
           pstmt.setInt(7, lt.getTinhTrang());
-          pstmt.setFloat(8, lt.getGiaBan());
+          // pstmt.setFloat(8, lt.getGiaBan());
          // File input = null;
         //  BufferedImage read = ImageIO.read(input);
 
@@ -68,7 +68,7 @@ public class LapTopDao {
           pstmt.setInt(4, lt.getSoLuong());
           pstmt.setFloat(5, lt.getGiaGoc());
           pstmt.setInt(6, lt.getTinhTrang());
-          pstmt.setFloat(7, lt.getGiaBan());
+//          pstmt.setFloat(7, lt.getGiaBan());
           if(lt.getAnh() != null){
             Blob anh = new SerialBlob(lt.getAnh());
             pstmt.setBlob(8, anh);

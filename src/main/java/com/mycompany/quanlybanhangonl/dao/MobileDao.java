@@ -33,7 +33,7 @@ public class MobileDao {
           pstmt.setInt(5, mb.getSoLuong());
           pstmt.setFloat(6, mb.getGiaGoc());
           pstmt.setInt(7, mb.getTinhTrang());
-          pstmt.setFloat(8, mb.getGiaBan());
+//          pstmt.setFloat(8, mb.getGiaBan()); 
          // File input = null;
         //  BufferedImage read = ImageIO.read(input);
 
@@ -64,7 +64,7 @@ public class MobileDao {
           pstmt.setInt(4, mb.getSoLuong());
           pstmt.setFloat(5, mb.getGiaGoc());
           pstmt.setInt(6, mb.getTinhTrang());
-          pstmt.setFloat(7, mb.getGiaBan());
+//          pstmt.setFloat(7, mb.getGiaBan());
           if(mb.getAnh() != null){
             Blob anh = new SerialBlob(mb.getAnh());
             pstmt.setBlob(8, anh);
